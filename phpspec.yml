@@ -1,0 +1,5 @@
+suites:
+    todo_suite:
+        namespace: App\Domain
+        psr4_prefix: App\Domain
+        src_path: %paths.config%/src/Domain

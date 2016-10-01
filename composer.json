@@ -1,0 +1,21 @@
+{
+    "name": "jowy/tdd-workshop",
+    "description": "TDD workshop",
+    "type": "application",
+    "require-dev": {
+        "phpspec/phpspec": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prasetyo Wicaksono",
+            "email": "pras@openmailbox.org"
+        }
+    ],
+    "minimum-stability": "stable"
+}
